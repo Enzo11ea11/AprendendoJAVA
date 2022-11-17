@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class FatorialDesajeitado {
     public static void main(String[] args) throws Exception {
         int n = Integer.parseInt(new Scanner(System.in).nextLine());
         int resultado = 0;
@@ -13,6 +13,7 @@ public class Main {
 
         //Se o número for maior que 3, ele fará um ou mais ciclos. O tmp armazena inicialmente o valor de n;
         //Quando a variável temp for menor que 3, sairá do laço e fará o cálculo restante conforme o seu valor atual
+        
         while (tmp >= 3) {
             if (ciclo == 1) {
                 cont1 += tmp * (tmp - 1) / (tmp - 2); // cálculo da multiplicação dos 3 primeiros números
