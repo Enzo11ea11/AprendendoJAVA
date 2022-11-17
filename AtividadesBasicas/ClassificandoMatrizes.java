@@ -7,7 +7,7 @@
 import java.util.*;
 import java.util.Scanner;
 
-public class Main {
+public class ClassificandoMatrizes {
   public static void main(String args[]) {
 
     Scanner input = new Scanner(System.in);
@@ -19,15 +19,7 @@ public class Main {
     }
     // TODO: mova todos os inteiros pares para o inicio do array, seguido por todos
     // os números ímpares
-    /*
-     * int y = 0;
-     * for (x = 0; x < nums.length; x++) {
-     * if (nums[x] % 2 == 0) {
-     * nums[x] = nums[x] ^ nums[y] ^ (nums[y] = nums[x]);
-     * 
-     * }
-     * }
-     */
+    
     int aux = 0;
     for (int i = 0; i < N; i++) {
       for (int j = (i + 1); j < N; j++) {
